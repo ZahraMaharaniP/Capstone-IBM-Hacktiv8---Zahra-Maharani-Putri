@@ -1,29 +1,28 @@
 # AI-Driven Nutritional Insights : Using IBM Granite to Decode Menu Health Profile & Recommendations 
 
 ## 📄 Project Overview
-This project analyzes the nutritional profiles of restaurant menu items using an AI-driven approach. By leveraging IBM Granite as the core reasoning engine, we aim to uncover actionable insights on calories, fat, sodium, carbohydrates, and sugars to help restaurants improve their offerings and guide consumers toward healthier choices. The project combines statistical analysis, visual exploration, and advanced AI-generated recommendations tailored for executive decision-making.
+This project analyzes nutritional data from restaurant menu items using an AI-driven approach powered by IBM Granite (via Replicate). By leveraging large language model reasoning, we extract concise insights and actionable recommendations to help restaurants improve menu health profiles and guide consumers toward better choices.
 
 ## 🔗 Raw Dataset Link
 [India Menu Nutrition Dataset — Google Drive] : https://drive.google.com/file/d/1BXBpMNVWYuDTkA6XI5vmPpmW3RklXdZX/view?usp=sharing
 
 ## 💡 Insight & Findings
-- **Calories**: Average content is high, with some items exceeding 600 kcal per serve. This poses risks for weight gain and associated health issues.
-- **Fat**: Average fat content suggests a diet high in saturated fat, which may contribute to cardiovascular disease.
-- **Sodium**: Many menu items contain sodium levels above daily recommended intake, potentially increasing hypertension risk.
-- **Carbohydrates & Sugars**: High sugar content in several items can contribute to metabolic syndrome and type 2 diabetes.
+- **Calories**: Average content is high; poses obesity and metabolic risk.
+- **Fat**: Elevated fat may increase cardiovascular disease risk.
+- **Sodium**: High sodium levels linked to hypertension.
+- **Carbs & Sugars**: Contribute to diabetes and weight gain.
 
 **Recommendations (AI-generated):**
-- Offer leaner protein sources and plant-based alternatives.
-- Use healthier cooking methods (grilling, steaming) to reduce fat.
-- Reduce sodium through alternative seasoning or menu reformulation.
-- Provide clear nutritional labeling to help consumers make informed decisions.
-- Promote portion control and balanced meal options.
+- Reduce fat and sodium content using healthier ingredients and cooking methods.
+- Improve menu transparency through labeling.
+- Offer balanced portions and alternative options.
 
 ## 🤖 AI Support Explanation
 
-IBM Granite (via Replicate) served as the core analytical reasoning engine in this project. Its role included:
-- Converting statistical summaries into detailed, executive-level insights.
-- Generating structured, professional recommendations in bullet-point style.
-- Suggesting and drafting Python code snippets for further visualization.
-- Acting as an interactive analysis assistant via Pandas dataframe agent for querying additional insights.
+IBM Granite (via Replicate) serves as the **core reasoning engine** throughout this project. It was used to:
+- Summarize numeric data into concise health risk insights.
+- Generate structured recommendations in bullet point format.
+- Suggest final visualization and provide Python code snippet.
+- Enable executive-ready summaries quickly and clearly.
 
+All prompts were optimized to remain concise, reducing risk of memory errors while maintaining clarity and actionable value.
